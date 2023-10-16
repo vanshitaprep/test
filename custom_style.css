@@ -1,0 +1,629 @@
+@font-face {
+    font-family: 'AGaramondPro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AGaramondPro-Bold'), url('./media/font/AGaramondPro-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'ApparelRegular';
+    src: local('ApparelRegular'), url('./media/font/ApparelRegular.ttf') format('tff');
+}
+
+
+
+body,div,ul,li,
+h1, h2,h3,h4,h5,h6,
+a,p,span{
+    font-family: ApparelRegular, RecifeDisplay,Georgia,Times,Times New Roman,serif;
+}
+
+footer ul,
+footer li,
+footer a,
+footer div,
+footer span,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6{
+    font-family: Raleway, HelveticaNowDisplay-Lt,Helvetica,Arial,sans-serif;
+}
+
+.quotted_font_size{
+    font-size:2.0rem;
+}
+
+
+.font_racife{
+    font-family: RecifeDisplay,Georgia,Times,Times New Roman,serif;
+}
+
+.font_HelveticaNowDisplay_Lt{
+    font-family: HelveticaNowDisplay-Lt,Helvetica,Arial,sans-serif;
+}
+
+.font-header{
+    font-family: ApparelRegular, RecifeDisplay,Georgia,Times,Times New Roman,serif;
+}
+
+.font-body{
+    font-family: Raleway, HelveticaNowDisplay-Lt,Helvetica,Arial,sans-serif;
+}
+
+
+.border-top-line{
+    border-top: 5px solid #a796ff;
+}
+
+
+/*.home .sub_page{*/
+/*    height: 100vh!important;*/
+/*}*/
+
+.sub_page .page-banner-ctn{
+    height: 65vh!important;
+    margin-bottom: 0px;
+}
+
+.slick-dots li button:focus:before, .slick-dots li button:hover:before{
+    background-color: #4d4284!important;
+    border: #4d4284!important;
+}
+
+
+/*.page-homepage .overlay:before{*/
+/*    background-color: #fff;*/
+/*    opacity: 0.1;*/
+/*}*/
+
+/*.bcg--blur {*/
+/*    filter: brightness(0.5);*/
+/*    opacity: 0.87;*/
+/*}*/
+
+/*.page-homepage .bcg--blur{*/
+/*    filter: none;*/
+/*    opacity: 1;*/
+/*}*/
+
+.bcg--blur{
+     filter: none;
+     opacity: 1;
+}
+
+.overlay:before{
+    background-color: transparent;
+    opacity: 0;
+}
+
+.grad-left:after{
+    background: transparent;
+    opacity: 0;
+}
+
+.ls-1{
+    letter-spacing: 1px;
+}
+.ls-2{
+    letter-spacing: 2px;
+}
+.ls-3{
+    letter-spacing: 3px;
+}
+
+.pb-cus-10{
+    padding:10px;
+}
+.pb-cus-20{
+    padding:20px;
+}
+.pb-cus-30{
+    padding:30px;
+}
+.pb-cus-40{
+    padding:40px;
+}
+
+.pb-cus-50{
+    padding:50px;
+}
+
+
+.mb-cus-10{
+    margin-bottom:10px;
+}
+.mb-cus-20{
+    margin-bottom:20px;
+}
+.mb-cus-30{
+    margin-bottom:30px;
+}
+.mb-cus-40{
+    margin-bottom:40px;
+}
+
+.mb-cus-50{
+    margin-bottom:50px;
+}
+.slide-in #banner-anchor, 
+.slide-in #nav.desktopNav,
+#mobileNav,
+footer,
+.desktopNav, a.btn:hover{
+    background: #4D4284;
+}
+
+
+/*#mobileNav,*/
+/*#nav-icon{*/
+/*    z-index: 999999!important;*/
+/*}*/
+
+.mobileNavOpen .desktopNav.rev{
+	background:transparent!important;
+}
+
+.logo_text{
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+
+.slide-in .logo_text{
+    font-size: 0.75rem;
+}
+
+.slide-in .custom_logo a h4{
+    display: contents;
+}
+
+
+.card--services-link--ctn .btnTxt{
+    color: #4D4284;
+}
+
+.card--services:hover .card--services-link--ctn .btnTxt{
+    color: #fff;
+}
+
+.btn:focus, .btn:hover, a:hover .card--services-link--ctn .btn, a:hover .card--services-link--ctn input.btn[type=button], a:hover .card--services-link--ctn input.btn[type=submit], button[type=submit]:focus, button[type=submit]:hover, input.btn[type=button]:focus, input.btn[type=button]:hover, input.btn[type=submit]:focus, input.btn[type=submit]:hover, input[type=submit]:focus, input[type=submit]:hover{
+    border: 1px solid #a796ff;
+}
+
+.btn:after, button[type=submit]:after, input.btn[type=button]:after, input.btn[type=submit]:after, input[type=submit]:after{
+    background: #4D4284;
+}
+
+
+.card--funds:hover .btn:focus, .card--funds:hover .btn:hover, .card--funds:hover a:hover .card--services-link--ctn .btn, .card--funds:hover a:hover .card--services-link--ctn input.btn[type=button], .card--funds:hover a:hover .card--services-link--ctn input.btn[type=submit], .card--funds:hover button[type=submit]:focus, .card--funds:hover button[type=submit]:hover, .card--funds:hover input.btn[type=button]:focus, .card--funds:hover input.btn[type=button]:hover, .card--funds:hover input.btn[type=submit]:focus, .card--funds:hover input.btn[type=submit]:hover, .card--funds:hover input[type=submit]:focus, .card--funds:hover input[type=submit]:hover, .rev .btn:focus, .rev .btn:hover, .rev a:hover .card--services-link--ctn .btn, .rev a:hover .card--services-link--ctn input.btn[type=button], .rev a:hover .card--services-link--ctn input.btn[type=submit], .rev button[type=submit]:focus, .rev button[type=submit]:hover, .rev input.btn[type=button]:focus, .rev input.btn[type=button]:hover, .rev input.btn[type=submit]:focus, .rev input.btn[type=submit]:hover, .rev input[type=submit]:focus, .rev input[type=submit]:hover, a:hover .card--services-link--ctn .card--funds:hover .btn, a:hover .card--services-link--ctn .card--funds:hover input.btn[type=button], a:hover .card--services-link--ctn .card--funds:hover input.btn[type=submit], a:hover .card--services-link--ctn .card .tile_content_inner .btn, a:hover .card--services-link--ctn .card .tile_content_inner input.btn[type=button], a:hover .card--services-link--ctn .card .tile_content_inner input.btn[type=submit], a:hover .card--services-link--ctn .rev .btn, a:hover .card--services-link--ctn .rev input.btn[type=button], a:hover .card--services-link--ctn .rev input.btn[type=submit], a:hover .card .tile_content_inner .btn:focus, a:hover .card .tile_content_inner .btn:hover, a:hover .card .tile_content_inner .card--services-link--ctn .btn, a:hover .card .tile_content_inner .card--services-link--ctn input.btn[type=button], a:hover .card .tile_content_inner .card--services-link--ctn input.btn[type=submit], a:hover .card .tile_content_inner button[type=submit]:focus, a:hover .card .tile_content_inner button[type=submit]:hover, a:hover .card .tile_content_inner input.btn[type=button]:focus, a:hover .card .tile_content_inner input.btn[type=button]:hover, a:hover .card .tile_content_inner input.btn[type=submit]:focus, a:hover .card .tile_content_inner input.btn[type=submit]:hover, a:hover .card .tile_content_inner input[type=submit]:focus, a:hover .card .tile_content_inner input[type=submit]:hover{
+    border: 1px solid #a796ff;
+}
+
+#nav-icon a:hover span, .post-type-archive-marketreports header:not(.slide-in) #nav-icon a:hover span, .single-marketreports header:not(.slide-in) #nav-icon a:hover span{
+    background: #a796ff;
+}
+
+a:hover .card--services{
+    background: #4D4284; 
+}
+
+
+a:hover .card--services .tile-img-wrapper:before {
+    background: linear-gradient(270deg,#4D4284,rgba(77, 66, 132,.738) 19%,
+    rgba(77, 66, 132,.541) 34%,rgba(77, 66, 132,.382) 47%,rgba(77, 66, 132,.278) 56.5%,
+    rgba(77, 66, 132,.194) 65%,rgba(77, 66, 132,.126) 73%,rgba(77, 66, 132,.075) 80.2%,
+    rgba(77, 66, 132,.042) 86.1%,rgba(77, 66, 132,.021) 91%,rgba(77, 66, 132,.008) 95.2%,
+    rgba(77, 66, 132,.002) 98.2%,rgba(77, 66, 132,0));
+}
+
+.about_side_2 a:hover h5,
+.about_side_2 a:hover h4{
+    color:#4d4284;
+}
+
+.readingProgressbar,
+.card .tile_content_inner ,
+.info-graphic--link h2, 
+.info-graphic--link .card 
+.tile_content_inner h2, 
+.info-graphic--link h1{
+    color: #a796ff;
+}
+
+.card .tile_content_inner .info-graphic--link:hover h2, 
+.info-graphic--link:hover .card .tile_content_inner h2, 
+.info-graphic--link:hover h1, 
+.info-graphic--link:hover h6, 
+.info-graphic--link:hover p {
+    color: #a796ff;
+}
+
+
+.card--funds:hover .contact-info a:not(.btn), .card--funds:hover .contact-info a:not(.btn):active, .card--funds:hover .contact-info a:not(.btn):focus, .card--funds:hover .contact-info a:not(.btn):hover, .card--funds:hover a:active, .card--funds:hover a:focus, .card--funds:hover a:hover, .rev .contact-info a:not(.btn), .rev .contact-info a:not(.btn):active, .rev .contact-info a:not(.btn):focus, .rev .contact-info a:not(.btn):hover, .rev a:active, .rev a:focus, .rev a:hover, a:hover .card .tile_content_inner .contact-info a:not(.btn), a:hover .card .tile_content_inner .contact-info a:not(.btn):active, a:hover .card .tile_content_inner .contact-info a:not(.btn):focus, a:hover .card .tile_content_inner .contact-info a:not(.btn):hover, a:hover .card .tile_content_inner a:active, a:hover .card .tile_content_inner a:focus, a:hover .card .tile_content_inner a:hover{
+    color: #a796ff;
+}
+
+p,
+.card--funds .tile_content_inner h2, .card .tile_content_inner h2, h1, h2, h3, h4, h5, h6{
+    color: #000;
+}
+
+.bg-violet{
+     background: #4D4284;
+}
+
+.text-white{
+    color: #fff;
+}
+.text-violet{
+    color: #4D4284;
+}
+
+.text-light-violet{
+    color: #a796ff;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.about_side_1 h4{
+    line-height: 40px;
+}
+
+p.about_us_description{
+    font-size: 2.5rem;
+}
+
+.more_about_btn:hover .btnTxt{
+     color: #fff;
+}
+
+.dual_slide_section .tile_content_inner {
+    margin-left: 0px!important;
+}
+
+.dual_slide_section .card .tile_content_inner h2 {
+    font-size: 3rem;
+}
+
+/*footer .footer-nav li.current-menu-item>a{*/
+/*    color: #fff!important;*/
+/*}*/
+footer .footer-nav li.current-menu-item>a{
+    color: #a796ff!important;
+}
+footer a:active, footer a:focus, footer a:hover{
+     color: #a796ff!important;
+}
+
+footer hr{
+    border-color: #fff;
+}
+
+.social-networks a svg.icon-svg .fill-colour{
+    fill:#a796ff!important;
+}
+
+
+#banner-anchor, #nav.desktopNav{
+    height:100px;
+}
+
+.desktopNav .btn{
+    border:0px;
+}
+
+.desktopNav img.logo-dark{
+    max-width: 275px;
+    margin-right: 10px;
+}
+
+.slide-in img.logo-dark{
+    max-width: 275px;
+}
+
+.desktopNav, a.btn:hover{
+    background: #4D4284;
+}
+
+
+.btn, button[type=submit], input.btn[type=button], input.btn[type=submit], input[type=submit]{
+    border: 1px solid #a796ff;
+}
+
+a, a:active, a:focus, a:hover{
+    color: #a796ff;
+}
+
+
+.profile-ctn--community:before{
+    background-color: #a796ff;
+}
+
+.btn .btnTxt span svg .fill-colour, button[type=submit] .btnTxt span svg .fill-colour, input.btn[type=button] .btnTxt span svg .fill-colour, input.btn[type=submit] .btnTxt span svg .fill-colour, input[type=submit] .btnTxt span svg .fill-colour {
+    fill: #a796ff!important;
+}
+
+
+.project_delivery img{
+    height:75px;
+    width: auto;
+}
+
+
+.img_streched--ctn .slider-ctn .slick-list:after{
+    background: transparent!important;
+}
+
+.carousel-nav.ver-br .carousel-next, .carousel-nav.ver-br .carousel-prev{
+    background: transparent;
+    border-color: #a796ff;
+}
+
+.carousel-nav.ver-br .carousel-next:focus, .carousel-nav.ver-br .carousel-next:hover, .carousel-nav.ver-br .carousel-prev:focus, .carousel-nav.ver-br .carousel-prev:hover{
+    border-color: #4d4284;
+    background: #a796ff;
+    opacity: 0.8;
+}
+.carousel-next:focus, .carousel-next:hover, .carousel-prev:focus, .carousel-prev:hover{
+    background-color: rgba(77, 66, 132,.22);
+}
+
+#mobileNav .half-bg{
+    background: #a796ff url('./media/sc_banner-05.png') no-repeat scroll 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#mobileNav nav ul li a:before{
+    background: #a796ff;
+}
+
+#mobileNav nav ul li a:focus, #mobileNav nav ul li a:hover{
+    color: #a796ff ;
+}
+
+
+
+/*custom logo*/
+.custom_logo{
+    width: 100%;
+    height: auto;
+}
+
+.custom_logo a{
+    display: flex; 
+    align-items: end;
+}
+
+
+.slide-in #banner-anchor, .slide-in #nav.desktopNav {
+    height: 65px;
+    padding: 5px 45px 5px 30px;
+}
+
+/*footer .menu-item a,*/
+/*footer .current-menu-item a{*/
+/*    color: #fff;*/
+/*}*/
+#mobileNav nav ul li:first-child, 
+#mobileNav nav ul li:last-child{
+    display: block;
+}
+
+#mobileNav nav ul li.active>a, 
+#mobileNav nav ul li.current-menu-item>a, 
+#mobileNav nav ul li.current_page_parent>a{
+    color: #fff;
+}
+
+
+
+
+/*Work Process in Home Page*/
+#work_process {
+    background: #4d4284;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#work_process h2 {
+    color:#fff;
+}
+
+.process {
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+.process__item {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  position: relative;
+  padding: 15px 15px;
+  transition: 0.4s ease-in-out;
+}
+/*.process__item:hover {*/
+/*  background: #f2f2f2;*/
+/*}*/
+.process__item:hover .process__number {
+  transform: translateY(5px);
+  color: #4d4284;
+}
+.process__number {
+  font-size: 90px;
+  -webkit-text-stroke: 1px #4d4284;
+  display: block;
+  color: transparent;
+  font-weight: 700;
+  transition: 0.4s ease-in-out;
+}
+.process__title {
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  /*color: #4d4284;*/
+  text-transform: uppercase;
+  margin-top: 30px;
+  /*min-height: 50px;*/
+}
+.process__subtitle {
+  display: block;
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.process__number img{
+    width: 115px;
+}
+
+span.process_item_number {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*.img_streched--ctn .slider-ctn .slide-wrapper{*/
+/*    background: #4d4284;*/
+/*}*/
+
+.pride_description{
+    font-size: 2.25rem;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/*About us Page - Start*/
+/*About us Page - End*/
+
+
+/*what we do start*/
+.what_we_do .profile-ctn--community .card-body{
+    align-self: center;
+}
+/*what we do end*/
+
+
+/*Invest With Us - Start*/
+
+.invest_us .card--funds:hover{
+    background:#a796ff;
+}
+
+.invest_us .card--funds{
+    background: none;
+    min-height: auto;
+    border: 1px solid #a796ff;
+}
+
+.card--funds .tile_content_inner--text{
+    margin-bottom: 0px;
+}
+
+.invest_us .tile_content_inner h3 {
+    min-height: 30%;
+}
+
+.card--funds:hover h2{
+    color: white;
+} 
+
+/*Invest With Us - End*/
+
+
+
+
+
+/*contact form*/
+
+
+
+#registration form input[type=email]:focus, #registration form input[type=email]:hover, #registration form input[type=password]:focus, #registration form input[type=password]:hover, #registration form input[type=tel]:focus, #registration form input[type=tel]:hover, #registration form input[type=text]:focus, #registration form input[type=text]:hover, #registration form select:focus, #registration form select:hover, #registration form textarea:focus, #registration form textarea:hover {
+    border-color: #4d4284;
+    color: #4d4284;
+    outline: 0;
+}
+
+#registration .gfield.gfield_checkbox input[type=checkbox]+label, #registration form input[type=email], #registration form input[type=password], #registration form input[type=tel], #registration form input[type=text], #registration form select, #registration form textarea, .cms-entry ol.source-list li a, .cms-entry ul>li, .history-slider-ctn .slick-dots:before, .nav-list .nav-label, .post-share h5, .slider-ctn .img_desc p, .slider-misc .slide-title, address, body, footer .links ul li a, h4, h6, p, p.lead, p.read-time, ul.anchor-desktop--sitebar li a{
+    font-family: Raleway, HelveticaNowDisplay-Lt,Helvetica,Arial,sans-serif;
+}
+
+
+#registration input:hover::placeholder {
+    color: #4d4284;
+}
+
+
+@media (max-width: 767.98px) {
+    .card--services.invest_borrow_description {
+        min-height: 700px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+  .process {
+    display: inline-block;
+  }
+  .process__item {
+    width: 49%;
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+  .process {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .process__item {
+    width: 100%;
+  }
+  .process__item:not(:last-of-type)::after {
+    content: "";
+    width: 1px;
+    height: 75%;
+    background: #8c8c8c;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 0.2;
+    transform: translateY(-50%);
+  }
+}
+/* End Work Process in Home Page*/
+
+
+@media (max-width: 575.98px){
+    .about_side_2 h3 {
+        font-size: 1.5rem
+    }
+    #nav .logo {
+         display: block; 
+    }
+    
+    /*.desktopNav img.logo-dark {*/
+    /*    width: 60px;*/
+    /*}*/
+    
+    .logo_text {
+        font-size: 0.75rem;
+    }
+    
+    /*.slide-in .desktopNav img.logo-dark {*/
+    /*    width: 45px;*/
+    /*}*/
+}
