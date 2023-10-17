@@ -50,6 +50,7 @@ footer h6{
 
 .font-body{
     font-family: Raleway, HelveticaNowDisplay-Lt,Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
 
@@ -131,9 +132,10 @@ footer h6{
 }
 
 
-.mb-cus-10{
+/* .mb-cus-10{
     margin-bottom:10px;
-}
+    font-weight: 800;
+} */
 .mb-cus-20{
     margin-bottom:20px;
 }
@@ -429,7 +431,7 @@ a, a:active, a:focus, a:hover{
 #work_process {
     background: #4d4284;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 #work_process h2 {
@@ -450,6 +452,10 @@ a, a:active, a:focus, a:hover{
   position: relative;
   padding: 15px 15px;
   transition: 0.4s ease-in-out;
+
+    background-color: #3a306b;
+    border-radius: 10px;
+    margin: 10px;
 }
 /*.process__item:hover {*/
 /*  background: #f2f2f2;*/
@@ -470,7 +476,7 @@ a, a:active, a:focus, a:hover{
   display: block;
   font-weight: 700;
   letter-spacing: 1.5px;
-  font-size: 18px;
+  font-size: 23px;
   /*color: #4d4284;*/
   text-transform: uppercase;
   margin-top: 30px;
@@ -484,7 +490,7 @@ a, a:active, a:focus, a:hover{
 }
 
 .process__number img{
-    width: 115px;
+    width: 80px;
 }
 
 span.process_item_number {
@@ -581,6 +587,9 @@ span.process_item_number {
   .process__item {
     width: 49%;
     display: inline-block;
+    background-color: #3a306b;
+    border-radius: 10px;
+    margin: 10px;
   }
 }
 @media (min-width: 1200px) {
@@ -591,6 +600,9 @@ span.process_item_number {
   }
   .process__item {
     width: 100%;
+
+    background-color: #3a306b;
+    border-radius: 10px;
   }
   .process__item:not(:last-of-type)::after {
     content: "";
@@ -626,4 +638,33 @@ span.process_item_number {
     /*.slide-in .desktopNav img.logo-dark {*/
     /*    width: 45px;*/
     /*}*/
+}
+
+#counters .back_circle {
+    background-color: #4D4284;
+    padding: 20px 20px;
+    border-radius: 30px;
+    width: 180px;
+   
+    margin: 10px;
+    
+}
+#counters .back_circle h3,
+#counters .back_circle p  {
+   color: white;
+}
+@media (max-width:756px){
+    #counters .back_circle {
+        background-color: #4D4284;
+        padding: 20px 20px;
+        border-radius: 30px;
+        width: 100%;
+       margin-top: 10px;
+       margin-left: auto;
+       margin-right: auto;
+        
+    }
+}
+#heading{
+    font-weight: bold;
 }
