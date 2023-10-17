@@ -385,7 +385,12 @@ a, a:active, a:focus, a:hover{
 #mobileNav .half-bg{
     background: #a796ff url('./media/sc_banner-05.png') no-repeat scroll 0% 0%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
+    background-attachment: fixed !important;
+    
+    background-position: top left;
+    /* background-position: top left;  */
+    background-size: 100% 100%;
 }
 
 .count_back{
@@ -401,7 +406,12 @@ a, a:active, a:focus, a:hover{
     color: #a796ff ;
 }
 
-
+#mobileNav .tryclass{
+    width: 50% !important;
+    background-image: url("./media/sc_banner-05.png");
+     background-color: #a796ff 
+     
+}
 
 /*custom logo*/
 .custom_logo{
@@ -660,6 +670,11 @@ span.process_item_number {
     margin: 10px;
     
 } */
+@media (max-width: 868px) {
+    #mobileNav .half-bg {
+        display: none; /* Hide the background image for tablets */
+    }
+}
 
 #counters .back_circle {
     background-color: #4d42846f;
