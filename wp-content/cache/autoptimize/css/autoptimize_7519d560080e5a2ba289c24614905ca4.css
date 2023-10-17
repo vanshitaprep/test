@@ -4585,10 +4585,10 @@ img {
     z-index: 1
 }
 
-.page-side-padding {
+/* .page-side-padding {
     padding-left: 50px;
     padding-right: 50px
-}
+} */
 
 @media (max-width:1279.98px) {
     .page-side-padding {
@@ -7900,8 +7900,8 @@ footer .logo {
 section {
     position: relative;
     width: 100%;
-    padding-top: 110px;
-    padding-bottom: 95px
+    padding-top: 70px;
+    padding-bottom: 20px
 }
 
 @media (max-width:1023.98px) {

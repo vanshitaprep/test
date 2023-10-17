@@ -9,6 +9,11 @@
     src: local('ApparelRegular'), url('./media/font/ApparelRegular.ttf') format('tff');
 }
 
+#special_heading h4{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
 
 
 body,div,ul,li,
@@ -276,11 +281,14 @@ p,
 }
 
 p.about_us_description{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .more_about_btn:hover .btnTxt{
      color: #fff;
+}
+.dual_slide_section{
+    background-image: url("./media/Untitled\ design\ \(4\).png");
 }
 
 .dual_slide_section .tile_content_inner {
@@ -484,7 +492,7 @@ a, a:active, a:focus, a:hover{
 }
 .process__subtitle {
   display: block;
-  font-size: 20px;
+  font-size: 17px;
   margin-top: 15px;
   line-height: 1.5;
 }
@@ -649,6 +657,9 @@ span.process_item_number {
     margin: 10px;
     
 }
+#counters .back_circle h3{
+    font-size: 1.28rem;
+}
 #counters .back_circle h3,
 #counters .back_circle p  {
    color: white;
@@ -667,4 +678,73 @@ span.process_item_number {
 }
 #heading{
     font-weight: bold;
+}
+.img_width{
+    margin: auto;
+    width: 50%;
+}
+@media (max-width:700px){
+    .img_width{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.back_img{
+    background-image: url("./media/Darwin (2).png");
+ 
+    background-size: cover;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.back_img div{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: #4D4284;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+
+    /* transform: translate(-50, 50%); */
+}
+.back_img div h4{
+    
+    color: white;
+    font-weight: 600;
+    padding: 50px 20px;
+    
+    /* transform: translate(-50, 50%); */
+}
+
+@media (max-width:600px){
+    .back_img div{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        background-color: #4D4284;
+        width: 80%;
+        height: 100%;
+        
+        margin: auto;
+        display: flex;
+    
+        /* transform: translate(-50, 50%); */
+    }
+    .back_img div h4{
+    
+        color: white;
+        font-weight: 600;
+        padding: 50px 20px;
+        line-height: 30px;
+        
+        /* transform: translate(-50, 50%); */
+    }
+}
+#marggin_top{
+    margin-top: -8%;
 }
