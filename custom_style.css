@@ -388,7 +388,10 @@ a, a:active, a:focus, a:hover{
     background-size: cover;
 }
 
-
+.count_back{
+    background-color: transparent;
+   
+}
 
 #mobileNav nav ul li a:before{
     background: #a796ff;
@@ -648,7 +651,7 @@ span.process_item_number {
     /*}*/
 }
 
-#counters .back_circle {
+/* #counters .back_circle {
     background-color: #4D4284;
     padding: 20px 20px;
     border-radius: 30px;
@@ -656,6 +659,27 @@ span.process_item_number {
    
     margin: 10px;
     
+} */
+
+#counters .back_circle {
+    background-color: #4d42846f;
+    padding: 30px 20px;
+    border-radius: 104%;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+    /* border: 2px solid black; */
+}
+
+#counters .back_circle:hover {
+    background-color: #4d4284;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 104%;
+    width: 180px;
+    height: auto;
+    margin: 10px;
+   
 }
 #counters .back_circle h3{
     font-size: 1.28rem;
@@ -703,7 +727,7 @@ span.process_item_number {
     justify-content: center;
     margin: auto;
     text-align: center;
-    background-color: #4D4284;
+    /* background-color: #4D4284; */
     width: 50%;
     height: 100%;
     margin: auto;
@@ -748,3 +772,5 @@ span.process_item_number {
 #marggin_top{
     margin-top: -8%;
 }
+
+

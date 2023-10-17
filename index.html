@@ -233,6 +233,22 @@
                             </div>
                         </a>
                         <br><br><br>
+                        <!-- <div class="carousel-nav ver-br">
+                            <a class="carousel-prev" href="#">
+                                <div>
+                                    <h3 class="font-title font-weight-bold mb-0 count">1000</h3>
+                                    <p class="font-body">Acres</p>
+                                </div>
+                            </a>
+                            <a class="carousel-next" href="#">
+                                <svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" width="9"
+                                    height="7" viewBox="0 0 9 7">
+                                    <path class="fill-colour" fill="#ffffff"
+                                        d="M8,3.20335676 L8,3.1312968 C7.99633725,3.05444628 7.98012262,2.97871501 7.952,2.90711025 C7.93060929,2.85219729 7.90093101,2.80089212 7.864,2.75498367 C7.84278255,2.71844059 7.81870732,2.68363629 7.792,2.65089706 L5.504,0.248898347 C5.19913882,-0.071693574 4.69232515,-0.084240041 4.372,0.220875028 C4.05167485,0.525990097 4.03913882,1.03322583 4.344,1.35381775 L5.328,2.40269052 L0.8,2.40269052 C0.3581722,2.40269052 0,2.76116101 0,3.20335676 C0,3.64555251 0.3581722,4.004023 0.8,4.004023 L5.272,4.004023 L4.232,5.03688244 C4.08054988,5.18722082 3.99536134,5.3918678 3.99536134,5.60535547 C3.99536134,5.81884315 4.08054988,6.02349012 4.232,6.1738285 C4.38221328,6.32540475 4.58668997,6.41066423 4.8,6.41066423 C5.01331003,6.41066423 5.21778672,6.32540475 5.368,6.1738285 L7.768,3.77182979 C7.83996077,3.6980481 7.89700549,3.61105042 7.936,3.51561659 C7.97802923,3.41687515 7.99979381,3.31068443 8,3.20335676 Z"
+                                        transform="translate(.531 .5)" />
+                                </svg>
+                            </a>
+                        </div> -->
                         <div class="row justify-content-center" id="counters">
                             <div class="col d-md-flex justify-content-between">
                                 <!-- <div class="count">45</div>
@@ -241,7 +257,7 @@
                                 <div class="count">50</div>
                                 <div class="count">125</div> -->
                                 <div class="text-center back_circle">
-                                    <div>
+                                    <div class="count_back">
                                         <h3 class="font-title font-weight-bold mb-0 count">1000</h3>
                                         <p class="font-body">Acres</p>
                                     </div>
@@ -608,7 +624,7 @@
                         localStart++;
                         counters[id].innerHTML = localStart;
                     }
-                }, 40);
+                }, 1);
             }
 
             for (j = 0; j < countersQuantity; j++) {
